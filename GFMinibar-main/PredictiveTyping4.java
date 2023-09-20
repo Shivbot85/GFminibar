@@ -5,7 +5,7 @@ public class PredictiveTyping4 {
     private Map<String, Double> nGramProbabilities;
     private GrammarManager grammarManager;
 
-    public PredictiveWordModel() {
+    public PredictiveTyping4() {
         nGramProbabilities = new HashMap<>();
         grammarManager = new GrammarManager();
     }
